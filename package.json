@@ -1,0 +1,16 @@
+{
+  "name": "candlechurch360server",
+  "version": "1.0.0",
+  "description": "candlechurch360server",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {}
+}
